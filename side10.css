@@ -1,0 +1,48 @@
+button {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: tomato;
+    border: 2px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(12, 220, 214);
+    outline: none;
+}
+
+button:hover {
+    background-color: blue;
+    color: saddlebrown;
+    outline: none;
+    animation: stikkAv 100ms;
+    animation-fill-mode: forwards;
+}
+button:active {
+    transform: translate(3px,3px);
+    box-shadow:none;
+    outline: none;
+}
+
+@keyframes stikkAv {
+    0% {top: 0; left: 0;}
+    100% {top: 300px; left: 300px;}
+
+}
+
+    #innhold div {
+        background-image:url("bilder/hjerte.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 22.55em;
+        height: 21em;
+        position: absolute;
+        left: 200px;
+        bottom: 70px;
+        transition: 2s;
+    }
+        #innhold div:hover {
+            transform: translate (0px, 0px);
+            background-image: url("bilder/hjerte.png");
+            width: 5em;
+            height: 5em;
+
+        }
