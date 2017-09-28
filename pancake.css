@@ -1,0 +1,131 @@
+#meny {
+    background-image: linear-gradient(135deg, rgba(42,64,209,1) 0%, rgba(42,186,222,0.89) 28%, rgba(10,194,10,0.78) 54%, rgba(199,4,147,0.65) 86%, rgba(50,214,102,0.4) 99%, rgba(39,230,99,0.4) 100%);
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+    width: 20%;
+    height: 70%;
+    }
+     
+    #meny ul {
+    -webkit-padding-start: 0;
+    }
+     
+    #meny li {
+    display: block;
+    }
+     
+    #meny li a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    padding-top:10px;
+    height: 2em;
+    background:linear-gradient(135deg, rgb(40, 62, 209) 0%, rgba(42,186,222,0.89) 28%, rgba(10,194,10,0.78) 54%, rgba(199,4,147,0.65) 86%, rgba(50,214,102,0.4) 99%, rgba(39,230,99,0.4) 100%); 
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray; 
+    }
+     
+    #meny li a:hover {
+    box-shadow: 3px 3px 3px green; 
+    }
+     
+    #meny li a:active {
+    transform: translate(2px,2px); 
+    box-shadow: none; 
+    }
+     
+    #meny li a.showing {
+    background:linear-gradient(135deg, rgba(42,64,209,1) 0%, rgba(42,186,222,0.89) 28%, rgba(10,194,10,0.78) 54%, rgba(199,4,147,0.65) 86%, rgba(50,214,102,0.4) 99%, rgba(39,230,99,0.4) 100%);
+    color:whitesmoke;
+    }
+    
+    
+     
+    .tittel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background: url("bilder/top.jpg");
+    filter: opacity(0.9);
+    background-size: cover;
+    background-color: #00D0FF;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    overflow: hidden;
+    mix-blend-mode: difference;
+    }
+    #innhold {
+    color: whitesmoke;
+    line-height: 2.0;
+    position: absolute;
+    left: 20%;
+    bottom: 15%;
+    width: 80%;
+    height: 70%;
+    background:linear-gradient(135deg, rgba(42,64,209,1) 0%, rgba(42,186,222,0.89) 28%, rgba(10,194,10,0.78) 54%, rgba(199,4,147,0.65) 86%, rgba(50,214,102,0.4) 99%, rgba(39,230,99,0.4) 100%);
+    }
+     
+    #innhold p {
+    padding-left:45px;
+    }
+     
+    #bunn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+    background: url("bilder/top.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
+     
+    table {
+    border: solid 3px black;
+    width: 30%;
+    color: black;
+    border-collapse: collapse;
+    position: center;
+    position:absolute;
+    left: 26%;
+    top: 20%;
+    height: 40%
+    }
+     /* Zebra striping */
+
+    th,td {
+    padding-left:6px;
+    border: 1px solid;
+    text-align: left;
+    background: white;
+    }
+    th {
+    background: white;
+    padding-left: 5px;
+    font-weight: bold;
+    }
+     
+    tr:nth-of-type(odd) {
+     background: #eeeeee;
+    }
+    td:nth-of-type(odd) {
+        background: white;
+        }
+    
+    #Bilde {
+    position: absolute;
+     left: 70%;
+    bottom: 15%;
+    width: 200%;
+    height: 200%;
+     }
