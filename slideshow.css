@@ -1,0 +1,26 @@
+:root {
+    --Slideshow-bg:red;
+}
+#slideshow {
+    background: url("bilder/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    left: 2em;
+    top: 2em;
+    width: 90%;
+    height: 80%;
+    border:2px solid gray;
+    border-radius: 2em;
+    background-color: var(--slideshow-bg);
+    animation: slideshow 16s ease-in infinite;
+}
+@keyframes slideshow {
+    1% { width: 90%; height: 80%; background-image:  url("bilder/logo.png")}
+    20% { width: 90%; height: 80%; background-image: url("bilder/play1.png")}
+    40% { width: 90%; height: 80%; background-image: url("bilder/play2.png")}
+    60% { width: 90%; height: 80%; background-image: url("bilder/PS3.png")}
+    80% { width: 90%; height: 80%; background-image: url("bilder/PS4.png")}
+    100% { width: 90%; height: 80%; background-image: url("bilder/sony.png")}
+}
