@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="datautstyr.css">
+    </head>
+    <body>
+        <div id="side">
+        <div id="title">
+            <h1>Binæretall</h1>
+                    <div id="meny">
+            <ol>
+            <li> <a class="showing" href="index.html">Side 1</a></li>
+            <li> <a href="linæretall.html">Binæretall</a></li>
+            <li> <a href="CPU.html">CPU</a></li>
+            <li> <a href="bilder.html">Bilder</a></li>
+            <li> <a href="lagring.html">Lagring</a></li>
+            <li> <a href="farger.html">Farger</a></li>
+            <li> <a href="kompresjon.html">Kompresjon</a></li>
+            <li> <a href="lyd.html">Lyd</a></li>
+            <li> <a href="video.html">Video</a></li>
+            <li> <a href="signaler.html">Signal</a></li>
+            <li> <a href="nettverk.html">Nettverk</a></li>                
+            </ol>
+         </div>
+         <div id="Bilder">
+             <img src="bilder/bits.png" width="284px" height="177px">
+         </div>
+        <div id="innhold">
+            <p> 
+                <h4>Binæretall</h4>
+                <bold> Binære </bold> er det desimale tallsystemet. I tallsystemet vi bruker til daglig er det ti tall: 1, 2, 3 osv. Men ti tall er veldig komplisert å legge inn i hardware til datamaskiner,
+             så for å gjøre det enklere har man brukt det binære tallsystemet.<bold> Binær </bold> enkelt, det er bare 0 og 1. To alternativer, altså.
+            <h4>Bits og byte</h4> 
+            I dataverdenen er en <bold> bit </bold> en del av hardwaren. Vanligvis en ørliten del av en integrert krets,
+            og den er enten stilt inn på 0 eller 1. Ordet bit er en forkortelse for <i> binary digit </i>, og er den minste mulige enheten av informasjon.
+            <br>
+            <bold>Byte</bold> opptrer sjelden enkeltvis i en datamaskin. De er neste alltid samlet sammen i samlinger på åtte. Når du grupperer åtte bits sammen får du en byte. Altså 1 byte = 8 bits. 
+            Denne inndelingen er noe man har kommet frem til gjennom prøving og feiling. Man kan se på en byte som en byggestein i bokstav- og tallsystemet man bruker for å gjøre det enklere å programmere.
+            <br>
+            <h4> Tegnsett </h4>
+            En byte brukes ofte til å representere ett tegn fra et tegnsett.
+            I starten brukte datamaskiner tegnsettet ASCII som var 7 bit (128 forskjellige tegn)
+            Dette ble senere utvida til ANSI (256 tegn)
+            Nå bruker vi UTF-8, hvor hvert tegn kan bruke fra 1 til 4 bytes. Noen programmer bruker fortsatt eldre tegnsett - slik at vi får problemer når vi publiserere typisk blir ÆØÅøæå til &#rølp;
+            <br>
+            <h4>Fra Binæretall til Hexdesimaletall </h4>
+            Et binærtall kan konverteres til hex på denne måten:
+            Grupper binærtallet i grupper på 4 bits (1 bit er et binært siffer, 0 eller 1)
+            Skriv over tallfølgen 8 4 2 1 ( som vi gjør for konvertering til desimal)
+            For hver gruppe på 4 bits får vi da et hexadesimalt siffer
+            0-9 er uendra, 10=A,11=B, ... 15=F
+            </p>
+        </div>
+        </div>
+    </body>
+</html>
