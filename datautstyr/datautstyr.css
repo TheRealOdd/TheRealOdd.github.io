@@ -53,6 +53,9 @@
     background:gray;
     color:skyblue;
     }
+    li {
+        display: inline;
+    }
 
     #innhold {
     position: absolute;
