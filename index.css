@@ -6,3 +6,46 @@
     background:  rgba(76,76,76,1);
     color: whitesmoke;
 }
+#meny {
+    background:rgba(76,76,76,1);
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    width: 20%;
+    height: 60%;
+    }
+     
+    #meny ul {
+    -webkit-padding-start: 0;
+    }
+     
+    #meny li {
+    display: block;
+    }
+     
+    #meny li a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    padding-top:10px;
+    height: 2em;
+    background: rgba(76,76,76,1); 
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #04F2CE; 
+    }
+     
+    #meny li a:hover {
+    box-shadow: 3px 3px 3px #04F2CE; 
+    }
+     
+    #meny li a:active {
+    transform: translate(2px,2px); 
+    box-shadow:3px 3px 3px #04F2CE; 
+    }
+     
+    #meny li a.showing {
+    background: rgba(76,76,76,1);
+    color:whitesmoke;
+    }
