@@ -49,3 +49,16 @@
     background: rgba(76,76,76,1);
     color:whitesmoke;
     }
+
+    #høyre {
+        position: absolute;
+        top: 50%;
+        left: 99%;
+        width: 200px;
+    }
+    #venstre {
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        width: 200px;
+    }
