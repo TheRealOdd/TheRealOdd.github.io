@@ -54,11 +54,18 @@
         position: absolute;
         top: 50%;
         left: 99%;
-        width: 200px;
+        width: 600px;
     }
     #venstre {
         position: absolute;
         top: 50%;
         left: 1%;
-        width: 200px;
+        width: 600px;
+    }
+    #side {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
     }
