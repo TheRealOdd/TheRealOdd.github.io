@@ -63,7 +63,11 @@
     position: absolute;
     left: 2%;
     top: 100%;
+<<<<<<< HEAD
     width: 800px;
+=======
+    width: 550px;
+>>>>>>> ae0756a212a5627f39cff826e0d0db055689de6f
     flex-direction: row;
     flex-wrap: wrap;
     color: whitesmoke;
