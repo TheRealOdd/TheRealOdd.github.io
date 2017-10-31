@@ -1,5 +1,6 @@
 #overskrift{
     position: absolute;
+    text-align: center;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -8,8 +9,9 @@
 }
 #meny {
     background:rgba(76,76,76,1);
+    text-align: center;
     position: absolute;
-    left: 50%;
+    left: 40%;
     bottom: 15%;
     width: 20%;
     height: 60%;
@@ -31,7 +33,7 @@
     text-align: center;
     padding-top:10px;
     height: 2em;
-    background: rgba(76,76,76,1); 
+    background: rgb(155, 151, 151); 
     border-radius: 5px;
     box-shadow: 3px 3px 3px #04F2CE; 
     }
@@ -51,16 +53,29 @@
     }
 
     #høyre {
+        color: white;
+        font-size: 3.5em;
         position: absolute;
         top: 50%;
-        left: 99%;
+        left: 90%;
         width: 600px;
     }
+    #høyre a{
+        text-decoration: none;
+        color: white;
+    }
+
     #venstre {
+        color: white;
+        font-size: 3.5em;
         position: absolute;
         top: 50%;
-        left: 1%;
-        width: 600px;
+        left: 5%;
+    }
+
+    #venstre a{
+        text-decoration: none;
+        color: white;
     }
     #side {
         position: absolute;
@@ -68,4 +83,5 @@
         left: 0%;
         bottom: 0%;
         width: 100%;
+        background: rgba(76,76,76,1);
     }
