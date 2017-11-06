@@ -12,7 +12,7 @@
 #meny {
     position: absolute;
     background: #000000;
-    color: skyblue;
+    color: whitesmoke;
     top: 25%;
     bottom: 90%;
     left: 20%;
@@ -30,7 +30,7 @@
      
     #meny li a {
     text-decoration: none;
-    color:skyblue;
+    color:whitesmoke;
     display: inline;
     margin: 8px;
     text-align: center;
@@ -52,69 +52,57 @@
      
     #meny li a.showing {
     background:gray;
-    color:skyblue;
+    color:whitesmoke;
     }
 
     li {
         display: inline;
     }
 
-    #innhold {
-    position: absolute;
-    left: 2%;
-    top: 120%;
-    width: 700px;
-    line-height: 1.2;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: whitesmoke;
-    background: #000000;
-    }
-    #innhold1 {
-        position: absolute;
-        left: 2%;
-        top: 100%;
-        width: 650px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        color: whitesmoke;
-        background: #B59C9C;
-        }
     #side {
         position:absolute;
         width: 100%;
         height: 100%;
         background: #000000;
     }
+    .column {
+        float: left;
+        color: whitesmoke;
+        width: 24.8%;
+        height: 561px;
+        line-height: 1.2;
+        border: 1.2px solid #00EDE7;
+    }
     
-    #Bilder {
-        position: absolute;
-        left:74%;
-        top:170%;
-        width:284px;
-        height:177px;
-        border: solid 3px #00FFF7;
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
-    #bilde2 {
+  
+ #Bilder1 {
+    position: absolute;
+    left:0.2%;
+    top: 440px;
+ }
+ #Bilder2 {
         position: absolute;
-        left: 70%;
-        top: 420%;
-        width: 27%;
-        height: 177px;
-        color: white;
-    }
-    #text {
-        position: absolute;
-        left: 55%;
-        top: 110%;
-        color: white;
-    }
-
-    #BB {
-        position: absolute;
-        left: 60%;
-        top: 215%;
-        width: 400px;
-        height: 400px;
-        border: solid 5px #00FFF7;
-    }
+        left:25.2%;
+        top: 440px;
+ }
+ #Bilde {
+    position: absolute;
+    left:50.2%;
+    top: 350px;
+ }
+ #Bilder3 {
+    position: absolute;
+    left:50.2%;
+    top: 440px;
+ }
+ #Bilder4 {
+    position: absolute;
+    left:75.2%;
+    top: 440px;
+ }
