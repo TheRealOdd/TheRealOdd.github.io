@@ -1,7 +1,7 @@
 #skjema{
     position: absolute;
     left: 2%;
-    top:15%;
+    bottom:15%;
     width: 30%;
 }
 .tittel {
@@ -18,14 +18,12 @@
     #bilde1 {
         position: absolute;
         left: 200%;
-        top: 25%;
-        width:20%;
+        bottom: 65%;
         text-align: center;
     }
     #bilde2{
         position: absolute;
         left: 130%;
-        top:25%;
-        width:20%;
+        bottom:65%;
         text-align: center;
     }
