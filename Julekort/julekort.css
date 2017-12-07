@@ -1,0 +1,38 @@
+#sky {
+    background-color: #0668CC;
+    width: 100%;
+    top: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-gap: 40px;
+    grid-auto-rows: minmax(40px, auto);
+}
+.star {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius:50%;
+}
+#snow {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#snowman {
+    position: absolute;
+    bottom: 14%;
+    left: 80%;
+}
+#nisse {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+#santa{
+    position: absolute;
+    left: -200px;
+    top:50px;
+    width:50px;
+    height: 20px;
+}
