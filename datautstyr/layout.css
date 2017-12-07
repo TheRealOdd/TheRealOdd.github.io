@@ -1,0 +1,108 @@
+#title {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height:80px;
+    width: 100%;
+    background: #000000;
+    color: #00FFF7;
+    text-shadow: #00FFF7;
+}
+
+#meny {
+    position: absolute;
+    background: #000000;
+    color: whitesmoke;
+    top: 25%;
+    bottom: 90%;
+    left: 20%;
+    width: 100%;
+    height: 10%;
+    margin: #00FCFF;
+}
+#meny ul {
+    -webkit-padding-start: 0;
+    }
+     
+    #meny li {
+    display: inline;
+    }
+     
+    #meny li a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: inline;
+    margin: 8px;
+    text-align: center;
+    padding-top:10px;
+    height: 1em;
+    background: gray; 
+    border: 5px solid gray;
+    box-shadow: 3px 3px 3px #00FCFF; 
+    }
+     
+    #meny li a:hover {
+    box-shadow: 3px 3px 3px #00EDE7; 
+    }
+     
+    #meny li a:active {
+    transform: translate(2px,2px); 
+    box-shadow:#00EDE7;
+    }
+     
+    #meny li a.showing {
+    background:gray;
+    color:whitesmoke;
+    }
+
+    li {
+        display: inline;
+    }
+
+    #side {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+    }
+    .column {
+        float: left;
+        color: whitesmoke;
+        width: 24.8%;
+        height: 561px;
+        line-height: 1.2;
+        border: 1.2px solid #00EDE7;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+  
+ #Bilder1 {
+    position: absolute;
+    left:0.2%;
+    top: 440px;
+ }
+ #Bilder2 {
+        position: absolute;
+        left:25.2%;
+        top: 440px;
+ }
+ #Bilde {
+    position: absolute;
+    left:50.2%;
+    top: 350px;
+ }
+ #Bilder3 {
+    position: absolute;
+    left:50.2%;
+    top: 440px;
+ }
+ #Bilder4 {
+    position: absolute;
+    left:75.2%;
+    top: 440px;
+ }
