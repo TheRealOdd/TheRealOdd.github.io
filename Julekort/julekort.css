@@ -1,5 +1,5 @@
 #sky {
-    background-color: #0668CC;
+    background-color: #030AB3;
     width: 100%;
     top: 50%;
     height: 50%;
@@ -55,5 +55,10 @@
      background-color: blue;
      border-left: solid red 21px;
      border-right: solid red 21px;
+     animation: drop 3s ease-in-out;
+     animation-fill-mode:forwards;
      }
- }
+     @keyframes drop {
+         0% {top:100px; }
+         100%{top: 80vh;}
+     }
