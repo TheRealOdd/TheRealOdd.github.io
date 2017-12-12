@@ -13,6 +13,5 @@ function setup() {
         pakke.style.left = e.screenX + "px";
         pakke.style.top = (e.screenY - 50) + "px";
         divSky.appendChild(pakke);
-
     }
 }
