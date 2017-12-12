@@ -28,17 +28,32 @@
     left: 80%;
 }
 #nisse {
-    width: 50px;
-    height: 20px;
-    background-image: url("bilder/nisse.png");
     position: absolute;
     top: 50px;
-    left:-200px;
-    animation: drive 6s alternate infinite;
+    left:-350px;
+    width: 350px;
+    height: 250px;
+    background-image: url("bilder/nisse.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+
+ 
+    animation: drive 6s 1s linear infinite;
  }
  
  @keyframes drive {
     0% {left: -500px;}
-    100% {left: 100%;}
+    100% {left: 150vw;}
  }
- 
+ .pakke {
+     position: absolute;
+     left: 0px;
+     top:0px;
+     width: 50px;
+     height: 30px;
+     background-color: blue;
+     border-left: solid red 21px;
+     border-right: solid red 21px;
+     }
+ }
