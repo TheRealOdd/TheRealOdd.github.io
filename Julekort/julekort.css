@@ -1,8 +1,7 @@
 #sky {
     background-color: #01055D;
     width: 100%;
-    top: 50%;
-    height: 50%;
+    height: 40%;
     display: grid;
     grid-template-columns: repeat(13,1fr);
     grid-gap: 40px;
@@ -16,17 +15,60 @@
     height: 10px;
     background-color: white;
     border-radius:50%;
+    animation: blink 2s linear infinite;
 }
-#snow {
+@keyframes blink {
+0% {background-color: yellow;
+width: 10px; height:10px;}
+100% {background-color: white;
+width: 2px; height: 2px;}
+}
+#snø {
     position:absolute;
     bottom: 0px;
     left: 0px;
+}
+#kanon {
+    position: absolute;
+    left: 20px;
+    bottom: -100px;
+    width: 20em;
+    height: 20em;
+    background-image: url(bilder/kanon.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+#moon {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 20em;
+    height: 20em;
+    background-image: url(bilder/moon.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
 }
 #snowman {
     position: absolute;
     bottom: 14%;
     left: 80%;
 }
+#snowman2 {
+    position: absolute;
+    bottom: 10%;
+    left: 70%;   
+}
+#snowman3 {
+    position: absolute;
+    bottom: 9%;
+    left: 20%;   
+}
+#snowman4 {
+    position: absolute;
+    bottom: 8%;
+    left: 45%;   
+}
+
 #nisse {
     position: absolute;
     top: 50px;
@@ -60,4 +102,36 @@
      @keyframes drop {
          0% {top:100px; }
          100%{top: 80vh;}
+     }
+     @keyframes dale {
+        0% {top:0px; }
+        100%{top: 90vh;}  
+     }
+     .powder ,
+     .snow {
+        position: absolute;
+        left: 0px;
+        top:0px;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+        animation: drop 3s linear infinite;
+        animation-fill-mode:forwards;
+     }
+     .powder {
+         top: 300px;
+         animation: drop 3s linear infinite;
+     }
+     @keyframes fyke {
+        10% {left:80px; top: 300px }
+        20% {left:90px; top: 310px }
+        30% {left:110px; top: 320px }
+        40% {left:110px; top: 340px }
+        50% {left:120px; top: 360px }
+        60% {left:130px; top: 380px }
+        70% {left:140px; top: 410px }
+        80% {left:150px; top: 440px }
+        90% {left:160px; top: 470px }
+        100%{left: 90vw; top: 500px}    
      }
