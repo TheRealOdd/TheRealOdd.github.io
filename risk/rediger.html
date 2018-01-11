@@ -7,22 +7,39 @@
 <script src="rediger.js"></script>
 
 </head>
-
 <body>
-    <title>Rediger risk</title>
-    <div id="main">
-        <form>
-            <input id="land" type="text">
-            <input id="reigon" type="text">
-            <p>
-                <button id="lagre">legg til land </button>
-            </p>
-        </form>
-    </div>
-
-    <script>
-        setup();
-    </script>
-</body>
-
-</html>
+        <div id="main">
+            <div>
+                <h4>Rediger land</h4>
+                <form>
+                    <br>Land
+                    <input id="land" type="text">
+                    <br>Region
+                    <input id="region" type="text">
+                    <p>
+                        <button type="button" id="lagreland">
+                            Legg til land</button>
+                    </p>
+                </form>
+            </div>
+            <div>
+                <h4>Rediger Kort</h4>
+                <form>
+                    <br>Kort (region)
+                    <input id="kort" type="text">
+                    <br>Antall
+                    <input id="antallnye" type="number">
+                    <p>
+                        <button type="button" id="lagrekort">
+                            Legg til land</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    
+        <script>
+            setup();
+        </script>
+    </body>
+    
+    </html>
