@@ -26,6 +26,7 @@ for (let i = 0;i < 54; i++) {
 }
     }
     makeSnow();
+    
     function cannonsnow() {
         for (let i = 1;i < 44; i++) {
             let powder = document.createElement(`div`);
@@ -36,5 +37,5 @@ for (let i = 0;i < 54; i++) {
             divSky.appendChild(snow);
  }
 }
-cannonSnow();
+cannonsnow();
     }
