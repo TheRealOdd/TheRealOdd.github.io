@@ -2,44 +2,106 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
 <link rel="stylesheet" href="rediger.css">
 <script src="rediger.js"></script>
 
 </head>
+
 <body>
-        <div id="main">
-            <div>
-                <h4>Rediger land</h4>
-                <form>
-                    <br>Land
-                    <input id="land" type="text">
-                    <br>Region
-                    <input id="region" type="text">
-                    <p>
+    <div id="main">
+        <div>
+            <h4>Rediger land</h4>
+            <form>
+                <div>
+                    <div>Land</div>
+                    <div>
+                        <input id="land" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Region</div>
+                    <div>
+                        <input id="region" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
                         <button type="button" id="lagreland">
-                            Legg til land</button>
-                    </p>
-                </form>
-            </div>
-            <div>
-                <h4>Rediger Kort</h4>
-                <form>
-                    <br>Kort (region)
-                    <input id="kort" type="text">
-                    <br>Antall
-                    <input id="antallnye" type="number">
-                    <p>
-                        <button type="button" id="lagrekort">
-                            Legg til land</button>
-                    </p>
-                </form>
-            </div>
+                                Legg til Land</button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
         </div>
-    
-        <script>
-            setup();
-        </script>
-    </body>
-    
-    </html>
+        <div>
+            <h4>Rediger Kort</h4>
+            <form>
+                <div>
+                    <div>Kort (region)</div>
+                    <div>
+                        <input id="kort" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Antall</div>
+                    <div>
+                        <input id="antallnye" type="number">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button type="button" id="lagrekort">
+                                Legg til Kort</button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <h4>Rediger Spiller</h4>
+            <form>
+                <div>
+                    <div>Brukernavn (region)</div>
+                    <div>
+                        <input id="bruker" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Alder (region)</div>
+                    <div>
+                        <input id="alder" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Farge</div>
+                    <div>
+                        <input id="farge" type="color">
+                    </div>
+                </div>
+                <div>
+                    <div>Navn</div>
+                    <div>
+                        <input id="navn" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button type="button" id="lagrespiller">
+                                Legg til Spiller</button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+    </div>
+<div id="shrek">
+    <div id="sprite">
+    </div>
+</div>
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>

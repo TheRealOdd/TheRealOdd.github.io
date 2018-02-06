@@ -1,0 +1,14 @@
+#top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    top: 15%;
+    bottom: 50%;
+}
+#bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    top: 50%;
+    bottom: 15%;
+}
