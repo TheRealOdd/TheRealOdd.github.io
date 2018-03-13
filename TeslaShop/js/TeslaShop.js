@@ -21,11 +21,11 @@ function setup() {
             <div>
               <h4> Transporteres: ${bestillinger}</h4>
               <ul>
-               <li> Navn: ${info.fulltnavn}<br>
-               <li>Adresse: ${info.adresse}<br>
-               <li>Epost: ${info.epost}<br>
-               <li>Mobil: ${info.telefonnummer}<br>
-               <li> Modell: ${info.modell}
+               <li> Navn: ${info.Fulltnavn}<br>
+               <li>Adresse: ${info.Adresse}<br>
+               <li>Epost: ${info.Epost}<br>
+               <li>Mobil: ${info.Telefonnummer}<br>
+               <li> Modell: ${info.Modell}
               </ul>
             </div>
           `;
