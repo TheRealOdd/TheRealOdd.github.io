@@ -1,0 +1,34 @@
+#bilder {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.bilde {
+    background-size: contain;
+    background-position:center;
+    height: 200px;
+    background-repeat: no-repeat;
+    filter: sepia(80%);
+    flex: 1;
+    transition: 2s;
+}
+
+.bilde:hover {
+    filter: sepia(0);
+}
+
+div.bilde:nth-child(1){
+background-image: url("fiesta.jpg");
+}
+div.bilde:nth-child(2){
+    background-image: url("1990.jpeg");
+    }
+div.bilde:nth-child(3){
+    background-image: url("2000.jpeg");
+    }
+    div.bilde:nth-child(4){
+        background-image: url("10.jpg");
+        }
+        div.bilde:nth-child(5){
+            background-image: url("18.jpg");
+        }

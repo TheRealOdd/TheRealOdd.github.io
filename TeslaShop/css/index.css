@@ -1,0 +1,72 @@
+#head {
+position: absolute;
+background-color: black;
+top: 0%;
+left: 0%;
+height: 120px;
+width: 100%;
+}
+#logo {
+    position: absolute;
+    top: 5%;
+    width: 20%;
+    height: 120px;
+}
+#meny {
+    position: absolute;
+    background: #000000;
+    color: #F44343;
+    top: 10%;
+    left: 25%;
+    width: 60%;
+    height: 50px;
+    margin: #F44343;
+}
+#meny ul {
+    -webkit-padding-start: 0;
+    }
+     
+    #meny li {
+    display: inline;
+    }
+     
+    #meny li a {
+    text-decoration: none;
+    color:#F44343;
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    padding-top:10px;
+    height: 3em;
+    background: black; 
+    border: 10px solid black;
+    box-shadow: 5px 5px 5px #F44343; 
+    }
+     
+    #meny li a:hover {
+    box-shadow: 3px 3px 3px #F44343; 
+    }
+     
+    #meny li a:active {
+    transform: translate(2px,2px); 
+    box-shadow:#F44343;
+    }
+     
+    #meny li a.showing {
+    background:black;
+    color:#F44343;
+    }
+
+    li {
+        display: inline;
+    }
+#bunn {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #F44343;
+}

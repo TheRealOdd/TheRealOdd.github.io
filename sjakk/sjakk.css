@@ -1,0 +1,113 @@
+#brett {
+    width: calc( 50px * 8);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: solid black 1px;
+}
+#brett div {
+    width: 50px;
+    height: 50px;
+}
+
+#brett div:nth-child(1) {
+    background: black;
+}
+
+#brett div:nth-child(3) {
+    background: black;
+}
+#brett div:nth-child(5) {
+    background: black;
+}
+#brett div:nth-child(7) {
+    background: black;
+}
+#brett div:nth-child(10) {
+    background: black;
+}
+#brett div:nth-child(12) {
+    background: black;
+}
+#brett div:nth-child(14) {
+    background: black;
+}
+#brett div:nth-child(16) {
+    background: black;
+}
+#brett div:nth-child(17) {
+    background: black;
+}
+#brett div:nth-child(19) {
+    background: black;
+}
+#brett div:nth-child(21) {
+    background: black;
+}
+#brett div:nth-child(23) {
+    background: black;
+}
+#brett div:nth-child(26) {
+    background: black;
+}
+#brett div:nth-child(28) {
+    background: black;
+}
+#brett div:nth-child(30) {
+    background: black;
+}
+#brett div:nth-child(32) {
+    background: black;
+}
+#brett div:nth-child(33) {
+    background: black;
+}
+#brett div:nth-child(35) {
+    background: black;
+}#brett div:nth-child(37) {
+    background: black;
+}#brett div:nth-child(39) {
+    background: black;
+}#brett div:nth-child(42) {
+    background: black;
+}#brett div:nth-child(44) {
+    background: black;
+}#brett div:nth-child(46) {
+    background: black;
+}#brett div:nth-child(48) {
+    background: black;
+}
+#brett div:nth-child(49) {
+    background: black;
+}#brett div:nth-child(51) {
+    background: black;
+}#brett div:nth-child(53) {
+    background: black;
+}#brett div:nth-child(55) {
+    background: black;
+}#brett div:nth-child(58) {
+    background: black;
+}#brett div:nth-child(60) {
+    background: black;
+}#brett div:nth-child(62) {
+    background: black;
+}#brett div:nth-child(64) {
+    background: black;
+}
+
+#emil {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+div.bonde:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: calc((50px - 25px)/2);
+    width: 25px;
+    height: 30px;
+background-color: whitesmoke;
+border-radius: 50%;
+box-shadow: 2px 2px 2px grey;
+
+}

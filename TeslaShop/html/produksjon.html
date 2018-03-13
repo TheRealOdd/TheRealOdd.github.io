@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/innhold.css">
+    <script src="../js/bestill.js"></script>
+    <script src="../js/rediger.js"></script>
+    <title>Tesla</title>
+</head>
+<body>
+   <div id="head">
+       <div id="logo">
+        <a href="../index.html"><img src="../bilder/logo.png" width="100px" height="100px"></a>
+       </div>
+   </div>
+   <div id="meny">
+        <li> <a href="../index.html">HJEM</a>
+            <li> <a href="../html/modeller.html">UTVLAG</a></li>
+            <li> <a href="../html/kjøp.html">KUNDER</a></li>
+            <li> <a class="showing" href="../html/produksjon.html">BESTILL</a></li>
+            <li> <a href="../html/oss.html">OM OSS</a></li>
+   </div>
+  <!-- <div id="besthold">
+        <div id="kunde">
+            <h4>Kunde</h4>
+        </div>
+        <div id="Bestilling">
+            <h4>Bestilling</h4>
+        </div>
+    </div>
+-->
+    <div id="main">
+            <div>
+                <h4>Registrer deg: </h4>
+                <form>
+                    <div>
+                        <div>Fulltnavn:</div>
+                        <div>
+                            <input id="fulltnavn" type="text">
+                        </div>
+                    </div>
+                    <div> Adresse: </div>
+                    <div>
+                        <input id="adresse" type="text">
+                    </div>
+                    <div> E-post: </div>
+                    <div>
+                        <input id="epost" type="text">
+                    </div>
+                    <div> Mobilnr: </div>
+                    <div>
+                        <input id="telefonnummer" type="text">
+                    </div>
+                    <div>Modell</div>
+                        <div>
+                            <input id="modell" type="text">
+                        </div>
+                    </div>
+                            <button type="button" id="lagrebestillinger">
+                                Bestill</button>
+                        </div>
+                </form>
+            </div>
+
+   <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+   <script>
+       setup();
+   </script>
+   <div id="bunn">
+       <p>Laget av Odd Einar Lervik</p>
+   </div>
+<!-- <script>
+        let btn = document.getElementById("lagreBestillinger").value;
+        btn.addEventListener("click", lagreBestillinger);
+        function lagreBestillinger() {
+            let fulltnavn = document.getElementById("fulltnavn").value;
+            alert("Hei " + fulltnavn + "Du vil snart få tilsendt en splitter ny tesla,<br> det eneste du trenger å gjøre er å sende mail med dine bankkort detaljer");
+        }
+    </script>
+-->
+</body>
+</html>

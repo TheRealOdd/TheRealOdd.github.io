@@ -1,0 +1,21 @@
+#liste {
+    width: 90vw;
+    min-height: 50vh;
+    border: 2px solid red;
+    padding: 1em;
+}
+:root {
+    --fyll:10px;
+}
+
+
+
+header {
+    color:green;
+    font-size: 1.2em;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+}
+.Medlem {
+    background-color: whitesmoke;
+  }
