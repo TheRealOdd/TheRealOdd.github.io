@@ -88,33 +88,7 @@ div.innholdmod:nth-child(4) {
 .bestillinger {
   background-color: white;
 }
-/*header {
-    position: relative;
-    top: 120px;
-    left: 0px;
-    width: 35%;
-    display: grid; 
-    grid-auto-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-}
 
-header:nth-child(1){
-    background-image: url("rolp1.png");
-    height: 200px;
-    width: 250px;
-    left: 0%;
-    background-repeat: no-repeat;
-    background-size: 270px;
-    background-position-y: 90px;
-}
-.header:nth-child(2){
-    background-image: url("");
-    height: 250px;
-    width: 250px;
-    background-repeat: no-repeat;
-    background-size: 270px;
-}
-*/
 #besthold {
     position: absolute;
     top: 150px;
@@ -167,9 +141,23 @@ header:nth-child(1){
         top: 120px;
         display: grid;
         grid-auto-columns: 1fr 1fr 1fr;
-        grid-column-gap: 5px;
+        
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
         text-overflow: none;
         line-height: 2.1;
+    }
+    #prosjektet {
+        position: absolute;
+        top: 120px;
+        left: 0%;
+        line-height: 2.1;
+        text-overflow: none;
+    }
+    #prosjektet2 {
+        position: absolute;
+        top: 120px;
+        left: 60%;
+        line-height: 2.1;
+        text-overflow: none;
     }
