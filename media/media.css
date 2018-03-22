@@ -1,0 +1,129 @@
+:root {
+    --display: grid;
+    --gridlate: repeat(6, 1fr);
+    --marg: 1em;
+    --topmarg: 1em;
+    --width: 200px;
+    --gg:6;
+  }
+  
+  @media all and (max-width: 1450px) {
+    :root {
+      --gridlate: repeat(4, 1fr);
+    }
+  }
+  
+  @media all and (max-width: 950px) {
+    :root {
+      --gridlate: repeat(3, 1fr);
+      --marg: 0.5em;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+      :root {
+          --gridlate: repeat(2, 1fr);
+          --marg: 0.2em;
+      }
+    }
+  
+  @media all and (max-width: 450px) {
+    :root {
+      --display: flex;
+      --marg:auto;
+      --topmarg: 1em;
+      --width: 300px;
+    }
+  }
+  
+  #main {
+    display: var(--display);
+    grid-template-columns: var(--gridlate);
+    flex-direction: column;
+  }
+  
+  #main > div {
+      width: var(--width);
+      height: calc(var(--width) - 50px);
+      border: solid gray 1px;
+      margin: var(--marg);
+      margin-top:var(--topmarg);
+  }
+  
+  #main > div:nth-of-type(odd) {
+      background-color: red;   
+  }
+  #main > div:nth-of-type(1) {
+    background-image: url("bilder/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(2) {
+    background-image: url("bilder/på.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(3) {
+    background-image: url("bilder/k.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(4) {
+    background-image: url("bilder/lol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(5) {
+    background-image: url("bilder/what.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(6) {
+    background-image: url("bilder/ehm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(7) {
+    background-image: url("bilder/hi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(8) {
+    background-image: url("bilder/long.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(9) {
+    background-image: url("bilder/smile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(10) {
+    background-image: url("bilder/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(11) {
+    background-image: url("bilder/frika.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main > div:nth-of-type(12) {
+    background-image: url("bilder/fish.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  @media print {
+    figure {
+      page-break-inside: avoid;
+    }
+    article {
+      page-break-after: always;
+    }
+    button, .menu {
+      display: none;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      page-break-after: avoid;
+    }
+  }
